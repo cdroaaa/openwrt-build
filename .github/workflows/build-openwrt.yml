@@ -16,8 +16,8 @@ on:
     inputs:
       ssh:
         description: 'SSH connection to Actions'
-        required: false
-        default: 'ture'
+        required: true
+        default: 'true'
 #  schedule:
 #    - cron: 0 8 * * 5
 
